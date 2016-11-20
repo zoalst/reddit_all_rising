@@ -1,0 +1,2 @@
+python-twitter==3.1
+Scrapy==0.24.4
