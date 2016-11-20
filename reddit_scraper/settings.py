@@ -13,10 +13,6 @@ BOT_NAME = 'reddit_scraper'
 SPIDER_MODULES = ['reddit_scraper.spiders']
 NEWSPIDER_MODULE = 'reddit_scraper.spiders'
 
-ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
-
-IMAGES_STORE = '/home/zachary/scrapy/reddit_scraper/images'
-
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'reddit_scraper (+http://www.yourdomain.com)'
